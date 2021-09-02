@@ -1,0 +1,474 @@
+/* ============================================ Deafault-start ====================================== */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.clear-fix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+/* ============================================  Deafault-end  ======================================= */
+
+
+
+/* ============================================  Extra-start  ======================================= */
+
+.jobi-jobi{
+    position: relative;
+    width: 629px;
+    left: 170px;
+}
+
+.map a:hover{
+    background: linear-gradient(to top,#3498db,#9b59b6,#2ecc71,#1abc9c,#34495e);
+    transition: 1s;
+    color: #fff;
+}
+
+/* ============================================   Extra-end   ======================================= */
+
+
+/* ========================================== header-start =============================================*/
+
+.header{
+    height: 82px;
+    background: linear-gradient(to left ,#20bf6b,#0fb9b1,#0fb9b1);
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+
+.menu{
+    float: right;
+    position: relative;
+    top: 23px;
+    left: -443px;
+}
+
+.header-image{
+    display: inline-block;
+}
+
+.header img{
+    height: 50px;
+    margin-left: 59px;
+    margin-top: 14px;
+}
+
+.header h2{
+    display: inline-block;
+    position: relative;
+    top: 13px;
+    left: 20px;
+}
+
+.header ul{
+    display: inline-block;
+}
+
+.header ul li{
+    display: inline-block;
+}
+
+
+.header ul li a{
+    text-decoration: none;
+    color: #103178;
+    padding: 19px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.header-icon i{
+    font-size: 25px;
+    color: #103178;
+    padding: 18px;
+}
+
+.header-icon{
+    float: right;
+    position: relative;
+    left: 502px;
+    top: 11px;
+}
+
+/* ==========================================  header-end  ============================================= */
+
+/* ==========================================  Bgi-start   ============================================= */
+
+
+.background{
+
+    background: url(./Nesseseries/background1.jpg) no-repeat;
+    background-size: cover;
+    padding-bottom: 489px;
+}
+
+.background h1{
+    font-size: 54px;
+    font-weight: 700;
+    color: #ffffff;
+    display: inline-block;
+    position: relative;
+    left: 94px;
+    top: 200px;
+}
+
+.background p{
+    color: #fff;
+    font-size: 25px;
+    position: relative;
+    top: 277px;
+    display: inline-block;
+    left: -225px;
+}
+
+.background h2{
+    position: relative;
+    color: #ffc800;
+    top: 361px;
+    font-size: 40px;
+    left: -561px;
+    display: inline-block;
+}
+
+.background h2 del{
+    color: #bba9a0;
+    font-size: 21px;
+    position: relative;
+    top: 5px;
+}
+
+.background a{
+    position: relative;
+    top: 442px;
+    right: 689px;
+    text-decoration: none;
+    color: #103178;
+    background: #ffc800;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 20px;
+    transition: 1s;
+    border: 2px solid #ffc800;
+    font-weight: bolder;
+}
+
+.background a:hover{
+    background: linear-gradient(#20bf6b, #0fb9b1, #45aaf2, #a55eea 85%);
+    color: #fff;
+    transition: 1s;
+}
+
+.circle{
+    display: inline-block;
+    background: #ffc800;
+    height: 143px;
+    width: 149px;
+    position: relative;
+    top: 261px;
+    left: -43px;
+    border-radius: 50%;
+}
+
+.circle h1{
+    color: #000;
+    font-size: 49px;
+    position: relative;
+    top: 23px;
+    left: 41px;
+}
+
+.circle h3{
+    color: #000;
+    top: 32px;
+    position: relative;
+    left: 41px;
+}
+
+
+/* ==========================================   Bgi-end    ============================================= */
+
+
+/* ==========================================  Video-start  ============================================= */
+
+.video{
+    background: #f0f2f5;
+    padding-top: 171px;
+    padding-bottom: 100px;
+}
+
+.video h1{
+    display: inline-block;
+    margin-left: 100px;
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    line-height: 66px;
+    color: #103178;
+    padding-bottom: 22px;
+}
+
+.video .v-p-1{
+    margin-left: 94px;
+    font-size: 27px;
+    font-weight: 300;
+    color: #103178;
+    margin-bottom: 19px;
+}
+.video .v-p-2{
+    display: inline-block;
+    margin-left: 106px;
+    color: #6196d0;
+    font-size: 19px;
+    margin-top: 15px;
+}
+.video .v-p-3{
+    display: inline-block;
+    margin-left: 54px;
+    color: #6196d0;
+    font-size: 19px;
+}
+
+.video i{
+    margin-right: 9px;
+}
+
+.video a{
+    text-decoration: none;
+    color: #000;
+    background: #ffc800;
+    margin-left: 255px;
+    margin-top: 11px;
+    position: relative;
+    top: 39px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 28px;
+    border: 2px solid #ffc800;
+    transition: 1s;
+}
+
+.video a:hover{
+    background: linear-gradient(to right ,#20bf6b, #e74c3c, #45aaf2, #a55eea 85%);
+    color: #fff;
+}
+
+/* ==========================================   Video-end   ============================================= */
+
+/* ==========================================  Card-start   ============================================= */
+
+.img-bb{
+    overflow: hidden;
+}
+
+.card:hover img{
+    transform: scale(1.2);
+    transition: 1s;
+}
+
+/* ==========================================   Card-end    ============================================= */
+
+
+/* ==========================================   Blog-start  ============================================== */
+
+.blog{
+    padding-top: 100px;
+    padding-bottom: 70px;
+}
+
+.blog h1{
+    font-size: 47px;
+    font-weight: 400;
+    color: #103178;
+}
+
+.b-img-div{
+    width: 316px;
+    margin-top: 90px;
+    margin-left: 176px;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+
+.b-img-div-2{
+    width: 316px;
+    margin-top: 90px;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+
+.b-img-div-3{
+    width: 376px;
+    margin-top: 90px;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.b-img{
+    display: inline-block;
+}
+
+.b-img-div img{
+    max-width: 100%;
+    border-radius: 15px;
+    transition: 1s;
+}
+
+
+.b-img-div-2 img{
+    max-width: 100%;
+    border-radius: 15px;
+    transition: 1s;
+}
+
+
+.b-img-div-3 img{
+    max-width: 100%;
+    border-radius: 15px;
+    transition: 1s;
+}
+
+.wite{
+    margin-left: 186px;
+    margin-top: 32px;
+}
+
+.wite p{
+    font-size: 12px;
+    color: #5b6c9d;
+}
+
+.wite h3{
+    font-size: 17px;
+    color: #5b6c9d;
+}
+
+
+.wite-2 p{
+    font-size: 12px;
+    color: #5b6c9d;
+    margin-top: 32px;
+}
+
+.wite-2 h3{
+    font-size: 17px;
+    color: #5b6c9d;
+}
+
+
+.b-img-2{
+    display: inline-block;
+    margin-top: 0;
+    position: relative;
+    left: 87px;
+}
+
+.blog img:hover{
+    transform: scale(1.2);
+    transition: 1s;
+}
+
+
+
+/* ==========================================    Blog-end   ============================================== */
+
+/* ==========================================   Coma-start  =============================================== */
+
+
+
+
+
+.coma .div-1{
+    background: #fff;
+    padding: 30px;
+    margin-top: 100px;
+    border-radius: 10px;
+}
+
+.div-1 p{
+    font-size: 15px;
+    width: 270px;
+    color: #5b6c9d;
+}
+
+.div-1 h3{
+    font-size: 23px;
+    font-weight: 700;
+    color: #5b6c9d;
+}
+
+
+
+/* ==========================================    Coma-end   =============================================== */
+
+
+/* ==========================================    From-start  =============================================== */
+
+.form{
+    padding-top: 100px;
+    padding-bottom: 150px;
+    padding-left: 100px;
+}
+
+.form h1{
+    font-weight: 500;
+    color: #003175;
+    padding-bottom: 39px;
+}
+
+
+input{
+    border: none;
+    background: #f0f2f5;
+    font-size: 19px;
+    width: 338px;
+    margin-right: 41px;
+    position: relative;
+    padding-left: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 40px;
+}
+
+textarea{
+    border: navajowhite;
+    background: #f0f2f5;
+    height: 149px;
+    padding-top: 23px;
+    width: 1111px;
+    border-radius: 40px;
+    padding-left: 53px;
+}
+
+.form a{
+    border: 5px solid #ffc800;
+    background: #ffc800;
+    padding: 10px;
+    margin-left: 91px;
+    margin-top: 46px;
+    border-radius: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    transition: 1s;
+}
+
+.form a:hover{
+    background: linear-gradient(30deg,#3498db,#9b59b6,#2ecc71,#1abc9c,#34495e);
+    color: #fff;
+    transition: 1s;
+}
+
+/* ==========================================     From-end   =============================================== */
